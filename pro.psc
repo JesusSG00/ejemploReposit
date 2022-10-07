@@ -68,7 +68,18 @@ Algoritmo proyecto
 			
 			
 		7:
-			//CODIGO DANIEL//
+			Definir a,b,c,d,n Como Real;
+			Escribir "INGRESA UN NUMERO :";
+			Leer  n;
+			a=0;
+			b=1;
+			Mientras a<=n Hacer
+				
+				Escribir a;
+				c=a+b;
+				a=b;
+				b=c;
+			FinMientras
 			
 		De Otro Modo:
 			Escribir "Si no selecciona opcion, es INCORRECTO";
